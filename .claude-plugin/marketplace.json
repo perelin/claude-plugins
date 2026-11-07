@@ -1,0 +1,56 @@
+{
+  "name": "perelin",
+  "owner": {
+    "name": "Sebastian Patino-Lang"
+  },
+  "metadata": {
+    "description": "Sebastian Patino-Lang's Claude Code plugins, skills and mods"
+  },
+  "plugins": [
+    {
+      "name": "boxed-ui",
+      "description": "Padded, themeable boxes around prompts and replies; Claude Code keeps rendering the content",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perelin/boxed-ui.git"
+      },
+      "homepage": "https://github.com/perelin/boxed-ui"
+    },
+    {
+      "name": "reladraw-view",
+      "description": "Draws ```reladraw fenced blocks in Claude's replies as inline images (kitty graphics: kitty, Ghostty)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perelin/reladraw-view.git"
+      },
+      "homepage": "https://github.com/perelin/reladraw-view"
+    },
+    {
+      "name": "voice-brief",
+      "description": "/voice-brief speaks a short briefing of Claude's last answer: the gist, what to do next, which decisions are open. Never speaks on its own; typing stops it.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perelin/voice-brief.git"
+      },
+      "homepage": "https://github.com/perelin/voice-brief"
+    },
+    {
+      "name": "end-session",
+      "description": "Close a Claude Code session cleanly: PRs and tickets reflect reality, merged branches and worktrees are pruned, recurring gotchas land somewhere durable, and the next session gets a short pointer-based handover",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perelin/end-session.git"
+      },
+      "homepage": "https://github.com/perelin/end-session"
+    },
+    {
+      "name": "visual-companion",
+      "description": "Show mockups, layout comparisons and architecture diagrams live in a local browser tab while Claude works, and collect your click choices back into the conversation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perelin/visual-companion.git"
+      },
+      "homepage": "https://github.com/perelin/visual-companion"
+    }
+  ]
+}
